@@ -1,4 +1,4 @@
-description: This file was created on 'test-mirror'
+description: This file was created on 'test-mirror', branch 'test'
 states:
   - id: helloworld
     type: noop
