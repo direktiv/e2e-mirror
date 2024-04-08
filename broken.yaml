@@ -1,0 +1,15 @@
+1.2.  # <- this line will throw an error when the user clicks "Run" in the workflow editor
+direktiv_api: workflow/v1
+description: A simple 'action' state that sends a get request
+functions:
+- id: get
+  image: direktiv/request:v4
+  type: knative-workflow
+states:
+- id: getter 
+  type: action
+  action:
+    function: get
+    input: 
+      method: "GET"
+      url: "https://jsonplaceholder.typicode.com/todos/1"
