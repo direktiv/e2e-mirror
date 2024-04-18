@@ -1,3 +1,3 @@
-This is a small repo created to test direktiv's mirror sync feature.
+This is a small repo created to test direktiv's mirror sync feature in e2e tests.
 
-Create a namespace with mirror settings pointing to this repository, and direktiv should import the files in the repo to the new namespace.
+Check out https://github.com/direktiv/direktiv-examples for a more detailed example.
